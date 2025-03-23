@@ -18,7 +18,7 @@ import io.restassured.response.Response;
 @Listeners(com.api.listeners.TestListener.class)
 public class LoginAPITest {
 	
-	@Test(description = "verify if login API is working")
+	@Test(description = "verify if login API is working properly")
 	public void loginTest() {
 		LoginRequest loginRequest = new LoginRequest("uday1234", "uday12345");
 		AuthService authService = new AuthService();
@@ -26,6 +26,7 @@ public class LoginAPITest {
 		Response response = authService.login(loginRequest);
 		LoginResponse loginResponse = response.as(LoginResponse.class);	
 		
+		//verify login response
 		System.out.println(loginResponse.getId());
 		System.out.println(response.prettyPrint());
 		Assert.assertEquals(response.getStatusCode(), 200);
