@@ -23,12 +23,15 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-   
+      
     - name: Execute tests
       run: mvn clean test -Dsuite=smoke -X
+
+    - name: Debug - List logs directory
+      run: ls -R logs/ || echo "logs/ directory not found"
 
     - name: Upload test results
       uses: actions/upload-artifact@v4.4.3
       with:
         name: logs
-        path: logs/
+        path: test/
