@@ -27,20 +27,7 @@ jobs:
       run: mvn clean test -Dsuite=smoke -X
 
     - name: Upload test results
-      if: always()
       uses: actions/upload-artifact@v3
       with:
-        name: test-results
-        path: |
-          test-output/reports/
-          target/surefire-reports/
-          logs/
-    
-    - name: Publish Test Report
-      if: always()
-      uses: dorny/test-reporter@v1
-      with:
-        name: TestNG Results
-        path: target/surefire-reports/junitreports/TEST-*.xml
-        reporter: java-junit
-
+        name: logs
+        path: logs/
