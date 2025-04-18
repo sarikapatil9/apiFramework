@@ -1,0 +1,66 @@
+10:10:51.361 [main] INFO  com.api.listeners.TestListener - Test suite started
+10:10:51.415 [main] INFO  com.api.listeners.TestListener - loginTestTest case started
+10:10:54.293 [main] INFO  com.api.listeners.TestListener - loginTestTest case passed
+10:10:54.321 [main] INFO  com.api.listeners.TestListener - Test suite completed
+10:47:21.725 [main] INFO  com.api.listeners.TestListener - Test suite started
+10:47:22.168 [main] INFO  com.api.listeners.TestListener - loginTestTest case started
+10:47:22.310 [main] INFO  com.api.listeners.TestListener - loginTestTest case failed
+10:47:22.813 [main] INFO  com.api.listeners.TestListener - Test suite completed
+10:48:41.985 [main] INFO  com.api.listeners.TestListener - Test suite started
+10:48:42.272 [main] INFO  com.api.listeners.TestListener - loginTestTest case started
+10:48:50.842 [main] INFO  com.api.filters.LoggingFilter - BASE_URI:http://64.227.160.186:8080
+10:48:50.844 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER:Accept=*/*
+Content-Type=application/json
+10:48:50.845 [main] INFO  com.api.filters.LoggingFilter - REQUSET PAYLOAD:{"username":"uday1234","password":"uday12345"}
+10:48:53.583 [main] INFO  com.api.filters.LoggingFilter - Status code200
+10:48:53.585 [main] INFO  com.api.filters.LoggingFilter - response HEADER:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 20 Mar 2025 05:18:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+10:48:53.587 [main] INFO  com.api.filters.LoggingFilter - response body:io.restassured.internal.RestAssuredResponseImpl@7f13811b
+10:48:54.052 [main] INFO  com.api.listeners.TestListener - loginTestTest case passed
+10:48:54.308 [main] INFO  com.api.listeners.TestListener - Test suite completed
+11:09:41.938 [main] INFO  com.api.listeners.TestListener - Test suite started
+11:09:42.189 [main] INFO  com.api.listeners.TestListener - loginTestTest case started
+11:09:52.309 [main] INFO  com.api.filters.LoggingFilter - BASE_URI:http://64.227.160.186:8080
+11:09:52.312 [main] INFO  com.api.filters.LoggingFilter - REQUEST HEADER:Accept=*/*
+Content-Type=application/json
+11:09:52.314 [main] INFO  com.api.filters.LoggingFilter - REQUSET PAYLOAD:{"username":"uday1234","password":"uday12345"}
+11:09:56.639 [main] INFO  com.api.filters.LoggingFilter - Status code200
+11:09:56.642 [main] INFO  com.api.filters.LoggingFilter - response HEADER:Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 20 Mar 2025 05:39:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+11:09:56.645 [main] INFO  com.api.filters.LoggingFilter - response body:io.restassured.internal.RestAssuredResponseImpl@7f353a0f
+11:09:57.206 [main] INFO  com.api.listeners.TestListener - loginTestTest case passed
+11:09:57.223 [main] INFO  com.api.listeners.TestListener - Test suite completed
